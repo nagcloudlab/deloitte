@@ -1,0 +1,22 @@
+
+
+UI -> data + style + behavior
+Web-UI -> html + css + javascript
+
+
+--------------------------------------------
+
+
+why we need javascript with HTML-page ?
+
+using browser's API, javascript can do any actions on HTML pages
+
+browser's Apis ==> DOM, XHR/Fetch , Timer
+
+
+Using DOM Api
+------------------
+=> to create/update/delete HTML elements
+=> to change element's inner content
+=> to change element' style
+
