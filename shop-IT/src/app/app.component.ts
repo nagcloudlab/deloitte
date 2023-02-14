@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  currentTab: number = 1
+
 
   products = [
     {
@@ -18,21 +18,14 @@ export class AppComponent {
       isAvailable: false,
       imgUrl: 'http://placehold.it/50x50'
     },
-    // {
-    //   id: 2,
-    //   name: 'Iphone-7',
-    //   price: 40000,
-    //   description: 'Iphone',
-    //   isAvailable: true,
-    //   imgUrl: 'http://placehold.it/50x50'
-    // },
+    {
+      id: 2,
+      name: 'Iphone-7',
+      price: 40000,
+      description: 'Iphone',
+      isAvailable: true,
+      imgUrl: 'http://placehold.it/50x50'
+    },
   ]
-
-  handleTabChange(tabIndex: number) {
-    this.currentTab = tabIndex
-  }
-  isTabSelected(tabIndex: number) {
-    return this.currentTab === tabIndex
-  }
 
 }

@@ -11,21 +11,13 @@ Angular
 ----------------------------------------------------------------        
     
     - interpolation 
-
         syntax:
-
         {{expression}}
-
     - property 
-
         syntax:
-
         <element [property]="expression"/>
-
     - event 
-
         syntax   :
-
         <element (event-name)="handler()"/>
 
 
@@ -37,15 +29,10 @@ Directives
 => re-usable javascript functionalities
 
     - component
-
         - UI-grament with single responsibility
-
     - structural
-
         e.g ngIf,ngFor,..
-
     - attribute
-
         e.g ngClass,ngStyle,..    
 
 
