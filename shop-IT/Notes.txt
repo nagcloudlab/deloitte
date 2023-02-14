@@ -37,4 +37,50 @@ Directives
 
 
 
+----------------------------------------------------------------
+
+
+why we need Angular ?
+
+=> to develope SPA 
+=> with simple UI component , can build complex web pages
+
+
+Learning path for Angular
+
+1. HTML
+2. CSS
+3. javascript / typescriot
+4. Angular
+
+
+Angular concepts
+
+    - directives
+
+        - component
+        - structural
+        - attribute
+
+    - data binding
+
+        - interpolation
+        - property
+        - event
+        - 2-way
+
+    - pipes
+    - services
+
+    - ready-to-use modules
+
+        - HtppClient Module
+        - Forms Module
+        - Routing
+        - ...
+
+        
+
+
+
 

@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 
 @Component({
@@ -8,24 +9,18 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
 
+  products = []
 
-  products = [
-    {
-      id: 1,
-      name: 'laptop',
-      price: 149000,
-      description: 'Macbook pro',
-      isAvailable: false,
-      imgUrl: 'http://placehold.it/50x50'
-    },
-    {
-      id: 2,
-      name: 'Iphone-7',
-      price: 40000,
-      description: 'Iphone',
-      isAvailable: true,
-      imgUrl: 'http://placehold.it/50x50'
-    },
-  ]
+  constructor(private httpClient: HttpClient) { }
+
+  ngOnInit() {
+    this.httpClient.get("http://localhost:8080/api/products")
+      .subscribe((response: any) => {
+        this.products = response
+      });
+  }
+
+
+
 
 }
