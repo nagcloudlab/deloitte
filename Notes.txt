@@ -20,3 +20,42 @@ Using DOM Api
 => to change element's inner content
 => to change element' style
 
+
+------------------------------------------------------------------
+
+
+challenges while developing web-UI applications
+
+
+    -> browser compatibility issues
+    -> performance issues
+    -> memory management issues
+    -> code organization
+    -> code re-usability
+
+
+Solutions:
+
+    => use/choose best third-party javascript libraries/frameworks
+
+    -> jquery
+
+    MVC based javascript libraries
+
+    -> knockout.js
+    -> backbone.js
+    -> ember.js
+    -> dojo
+    -> YUI
+    -> Ext.js
+    -> Angular.JS
+
+    Component based javascript libraries
+
+    -> React.js from facebook-team
+    -> Angular from google-team
+    -> Vue.js
+
+    
+
+

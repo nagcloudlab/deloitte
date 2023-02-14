@@ -17,8 +17,8 @@ showBtn.addEventListener("click", (e) => {
 
 // using DOM API + Timer API
 
+const timeNowEle = document.querySelector("#time-now");
 setInterval(() => {
-  const timeNowEle = document.querySelector("#time-now");
   timeNowEle.innerText = new Date().toLocaleTimeString("en-US", {
     timeZone: "Asia/Kolkata",
   });
