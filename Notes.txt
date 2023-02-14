@@ -56,6 +56,21 @@ Solutions:
     -> Angular from google-team
     -> Vue.js
 
-    
+
+------------------------------------------------------------------
 
 
+Angular project
+-------------------
+
+    - Module(s)
+
+        -> Component(s) 
+        -> pipes(s)
+        -> services(s)
+        -> directive(s)
+
+
+Component
+
+    => html + css + javascript/typescript
